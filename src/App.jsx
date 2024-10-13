@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Form from './Form';
-import Modal from "../Components/Modal";
-import Button from "../Components/Button";
+import Form from './Basic-Form/Form';
+import Modal from "./Components/Modal";
+import Button from "./Components/Button";
 
 const App = () => {
   const [addForm, setAddForm] = useState(false);
